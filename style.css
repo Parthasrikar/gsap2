@@ -133,14 +133,14 @@ html,body {
     }
     #main {
         h1 {
-            font-size: 28px;
+            font-size: 15px;
         }
         h1:nth-child(2) {
             margin-top: 110px;
         }
         h1 span {
             background-color: brown;
-            font-size: 12px;
+            font-size: 7px;
             padding: 5px 10px;
             border-radius: 5px;
             margin: 0 5px;
