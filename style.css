@@ -109,3 +109,63 @@ html,body {
     transform: translate(-50%,0);
 }
 
+@media screen and (min-width:550px) {
+    #nav {
+        img {
+            height: 45px;
+        }
+        #nav-part2 {
+            font-size: 1px;
+            visibility: hidden;
+        }
+        #nav-part3 {
+            gap: 15px;
+            text-transform: uppercase;
+            font-size: 20px;
+            button {
+                color: #222;
+                padding: 10px 15px;
+                text-transform: uppercase;
+                font-weight: 500;
+                font-size: 15px;
+                border: none;
+            }
+        }
+    }
+    #main {
+        h1 {
+            font-size: 70px;
+        }
+        h1:nth-child(2) {
+            margin-top: 280px;
+        }
+        h1 span {
+            background-color: brown;
+            font-size: 25px;
+            padding: 10px 20px;
+            border-radius: 30px;
+            margin: 0 15px;
+            z-index: 2;
+        }
+    }
+
+    #main> #left-img {
+        height: 250px;
+        top: 18%;
+        left: 5%;
+    } 
+    
+    #main> #right-img {
+        height: 150px;
+        bottom: 22%;
+        right: 8%;
+    }
+    
+    #main> #central {
+        height: 130px;
+        position: absolute;
+        top: 29%;
+        right: 14%;
+    }
+}
+
