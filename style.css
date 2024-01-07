@@ -109,7 +109,7 @@ html,body {
     transform: translate(-50%,0);
 }
 
-@media screen and (min-width:550px) {
+@media screen and (max-width:550px) {
     #nav {
         img {
             height: 45px;
